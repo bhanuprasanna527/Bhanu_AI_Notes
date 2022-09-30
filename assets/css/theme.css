@@ -10973,8 +10973,6 @@ a.text-link:hover {
 .docs-nav {
   overflow-y: auto;
   padding: 1rem;
-  border: 3px solid;
-  border-color: #250;
 }
 .docs-nav .section-title {
   font-size: 1rem;
