@@ -4109,6 +4109,7 @@ fieldset:disabled .btn {
 }
 .card-text:last-child {
   margin-bottom: 0;
+  color: #000;
 }
 .card-link + .card-link {
   margin-left: var(--bs-card-spacer-x);
@@ -10492,7 +10493,7 @@ body {
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #5d6778;
+  color: #000;
   padding-top: 69px;
 }
 h1,
@@ -11063,13 +11064,13 @@ a.text-link:hover {
   display: inline-block;
   right: 0;
   bottom: 1rem;
-  font-size: 0.75rem;
+  font-size: 0.9rem;
   font-weight: normal;
-  color: #747f94;
+  color: #000;
 }
 .docs-article .docs-section {
   padding: 2rem 0;
-  border-bottom: 1px solid #e7e9ed;
+  border-bottom: 3px solid #250;
   scroll-margin-top: 69px;
   scroll-snap-margin-top: 69px;
 }
