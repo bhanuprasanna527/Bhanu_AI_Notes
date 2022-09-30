@@ -10842,7 +10842,8 @@ a.text-link:hover {
   height: 100%;
   top: 0;
   left: 0;
-  border: #250;
+  border: 2px solid;
+  border-color: #250;
 }
 .search-form {
   position: relative;
