@@ -11010,7 +11010,7 @@ a.text-link:hover {
   display: inline-block;
   position: relative;
   padding: 0.5rem 1rem;
-  color: #5d6778;
+  color: #000;
 }
 .docs-nav .nav-link .theme-icon-holder {
   font-size: 0.875rem;
@@ -11046,7 +11046,7 @@ a.text-link:hover {
 }
 .docs-article {
   padding: 2rem;
-  color: #5d6778;
+  color: #000;
   scroll-margin-top: 69px;
   scroll-snap-margin-top: 69px;
 }
@@ -11083,27 +11083,27 @@ a.text-link:hover {
 }
 .docs-article h2,
 .docs-article .h2 {
-  color: #464e5b;
+  color: #000;
 }
 .docs-article h3,
 .docs-article .h3 {
   font-size: 1.5rem;
-  color: #464e5b;
+  color: #000;
 }
 .docs-article h4,
 .docs-article .h4 {
   font-size: 1.25rem;
-  color: #464e5b;
+  color: #000;
 }
 .docs-article h5,
 .docs-article .h5 {
   font-size: 1rem;
-  color: #464e5b;
+  color: #000;
 }
 .docs-article h6,
 .docs-article .h6 {
   font-size: 0.875rem;
-  color: #464e5b;
+  color: #000;
 }
 .docs-article ul,
 .docs-article ol,
