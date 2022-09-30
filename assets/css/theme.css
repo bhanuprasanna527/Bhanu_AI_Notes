@@ -10944,6 +10944,8 @@ a.text-link:hover {
   transition: transform 0.35s ease-in-out;
   transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
   box-shadow: 1px 0 5px 0 rgba(0, 0, 0, 0.1);
+  border: 3px solid;
+  border-color: #250;
 }
 .docs-sidebar::-webkit-scrollbar {
   width: 6px;
