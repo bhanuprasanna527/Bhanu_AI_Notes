@@ -6732,6 +6732,7 @@ fieldset:disabled .btn {
   left: 0;
   z-index: 1030;
   background-color:  #AF5;
+  border: 2px #250;
 }
 .fixed-bottom {
   position: fixed;
