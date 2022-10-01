@@ -433,8 +433,13 @@ legend + * {
 output {
   display: inline-block;
 }
-iframe {
-  border: 0;
+.iframe-css 
+{
+ display: block; 
+ width: 100%; 
+ border: none; 
+ overflow-y: auto; 
+ overflow-x: hidden;
 }
 summary {
   display: list-item;
@@ -10960,6 +10965,22 @@ a.text-link:hover {
     transition: none;
   }
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
 .docs-sidebar.sidebar-visible {
   -webkit-transform: translateX(0);
   transform: translateX(0);
