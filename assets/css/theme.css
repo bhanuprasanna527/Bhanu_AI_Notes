@@ -11063,8 +11063,8 @@ a.text-link:hover {
 .docs-content {
   margin-left: 300px;
   padding-bottom: 500px;
-  border: 3px solid;
-  border-color: #250;
+  /* border: 3px solid;
+  border-color: #250; */
 }
 .docs-article {
   padding: 2rem;
