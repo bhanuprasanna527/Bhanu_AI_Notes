@@ -364,8 +364,24 @@ model = Sequential([layer_1, layer_2, layer_3])
 					</section><!--//section-->
 					
 					<section class="docs-section" id="item-3-3">
-						<h2 class="section-heading">Section Item 3.3</h2>
-						<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo augue convallis id. Sed interdum turpis quis felis bibendum imperdiet. Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in felis ultricies porttitor. Donec at purus libero. Vestibulum libero orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum ultricies malesuada tempor.</p>
+						<h2 class="section-heading">Adding Data</h2>
+						<p>Adding more data is a step mostly practiced by ML Practitioners in order to improve the overall model performance and try to reduce Variance in the model. As we have already discussed that Variance can be reduced by adding more data.</p>
+						<p>There are two ways of creating Data:</p>
+						<li>Data Augmentation</li>
+						<li>Data Synthesis</li>
+						<br><h3>Data Augmentation</h3>
+						<p><b>Augmentation:</b> modifying an existing training example to create a new training example.</p>
+						<p>Data Augmentation is done most commonly for image and speech or sound data.</p>
+						<p>Data Augmentation involves the process of distorting the data. Here is picture of cute cat to demonstrate Data Augmentation:</p>
+						<img class="figure-img img-fluid shadow rounded" src="https://dataaspirant.com/wp-content/uploads/2020/08/4-rotation-technique.png" alt="" title="Data Augmentation">
+						<br><br><li>Here we have a same cat picture with different angles and rotations.</li>
+						<li>These are only some methods of Data Augmentation, there are many methods like changing contrast, brightness, cropping, zoom in, zoom out, and many others.</li>
+						<br><h3>Data Synthesis</h3>
+						<p>Suppose you are working in a new model for developing a OCR (Optical Character Recognition) where a model will identify all the text present in the image.</p>
+						<br><img class="figure-img img-fluid shadow rounded" src="https://wallpaperaccess.com/full/626071.jpg"  alt="" title="OCR Example">
+						<br><br><p>The above image has a lot of text present. We have train a model that can understand all types of fonts, rotation, and angles of text to identify all the text present in the image.</p>
+						<p>This is where the Data Synthesis comes in where we create the data or engineer the data from scratch using a word editor and putting different types of fonts and rotating to create a dataset for training of the model.</p>
+						<br><img class="figure-img img-fluid shadow rounded" src="https://raw.githubusercontent.com/ritchieng/machine-learning-stanford/master/w11_application_example_ocr/photoocr7.png" alt="" title="Data Synthesis">
 					</section><!--//section-->
 			    </article><!--//docs-article-->
 			    
