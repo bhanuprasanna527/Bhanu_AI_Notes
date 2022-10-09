@@ -116,9 +116,65 @@
 		    <div class="container">
 			    <article class="docs-article" id="section-1">
 				    <header class="docs-header">
-					    <h1 class="docs-heading">Introduction <span class="docs-time">Last updated: 2019-06-01</span></h1>
+					    <h1 class="docs-heading">Recommender Systems <span class="docs-time">Last updated: 2019-06-01</span></h1>
 					    <section class="docs-intro">
-						    <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque finibus condimentum nisl id vulputate. Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+						    <p>Recommender Systems has recieved quite an attention in academia. But the commercial impact and actual number of practical use cases has been vastly greater than given by the academia.</p>
+							<div class="table-responsive my-4">
+								<table class="table table-bordered table-dark">
+									<thead>
+										<tr>
+											<th scope="col">Movie</th>
+											<th scope="col">Alice (1)</th>
+											<th scope="col">Bob (2)</th>
+											<th scope="col">Carol (3)</th>
+											<th scope="col">Dave (4)</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<th>Love at last</th>
+											<td>5</td>
+											<td>5</td>
+											<td>0</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<th>The Karate Kid</th>
+											<td>5</td>
+											<td>?</td>
+											<td>?</td>
+											<td>0</td>
+										</tr>
+										<tr>
+											<th>Transformers</th>
+											<td>?</td>
+											<td>4</td>
+											<td>0</td>
+											<td>?</td>
+										</tr>
+										<tr>
+											<th>Chappie</th>
+											<td>0</td>
+											<td>0</td>
+											<td>5</td>
+											<td>4</td>
+										</tr>
+										<tr>
+											<th>Iron Man</th>
+											<td>0</td>
+											<td>0</td>
+											<td>5</td>
+											<td>?</td>
+										</tr>
+									</tbody>
+								</table>
+								<p>Here, <b>? = Not seen the movie</b>, the ratings ranging between 0 stars to 5 stars.</p>
+								<p>n<sub>u</sub> = Number of Users = 4</p>
+								<p>n<sub>m</sub> = Number of Movies = 5</p>
+								<p>r(i,j) = 1 if user j has rated the movie i, r(1,1) = 1, r(3,1) = 0</p>
+								<p>y(i,j) = rating given by user j to movie i (defined only if r(i,j) = 1, y(3,2) = 4</p>
+								<p>So with this framework for recommended systems one possible way to approach the problem is to look at the movies that users have not rated. And to try to predict how users would rate those movies because then we can try to recommend to users things that they are more likely to rate as five stars.</p>
+							</div><!--//table-responsive-->
 						</section><!--//docs-intro-->
 						
 						<h5>Github Code Example:</h5>
